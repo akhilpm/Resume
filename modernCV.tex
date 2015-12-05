@@ -1,0 +1,127 @@
+%% start of file `moderncv_ntrp_template_en.tex'.
+%% Copyright 2007 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+%
+% Modded by ntrp (nitropowered@gmail.com)
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+\usepackage[T1]{fontenc}
+% character encoding
+\usepackage[utf8x]{inputenc}                   % replace by the encoding you are using
+\usepackage[croatian]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
+\fancyfoot[RE,LO]{\footnotesize } % other info in "inner" position of footer line
+
+% personal data
+\firstname{Akhil}
+\familyname{P M}
+\title{Curriculum Vitae}               % optional, remove the line if not wanted
+%\address{Pilakkatt Meethal House,\\ Kuruvangad P O,Koyilandy,\\}{Calicut, Kerala, Pin: 673305}    % optional, remove the line if not wanted
+%\address{<Address Street>}{<Addres Place>}
+\mobile{(+91) 9961558915}                    % optional, remove the line if not wanted
+%\phone{<Phone number>}                      % optional, remove the line if not wanted
+%\fax{<Fax number>}                          % optional, remove the line if not wanted
+\email{akhilpm135@gmail.com}                      % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[84pt]{placeholder.jpg}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\photo[70pt][0.4pt]{pictures/akhi}
+%\quote{"Success is the ability to go from failure to failure without losing your enthusiasm." -- Winston Churchill}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+%Section
+\section{Info}
+%\cvline{Birth}{\small 11-04-1991 (Calicut)\normalsize}
+%\cvcomputer{Citizenship}{\small Indian\normalsize}{}{}%{Driving License}{\small <License> \normalsize}
+%\cvline{Elance}{\small \url{<Link to profile>}\normalsize}
+\cvline{LinkedIn}{\small \url{https://in.linkedin.com/pub/akhil-pm/31/b60/657}\normalsize}
+\cvline{Github}{\small \url{https://github.com/akhilpm}\normalsize}
+%\cvline{Blog}{\small \url{https://akhilpm135.wordpress.com/}\normalsize}
+%\cvline{Skype}{\small <skype>\normalsize}
+
+\section{Career Objective}
+
+\cventry{Objective}{To secure a promising, successful and challenging career in a reputed organization where my knowledge and skill can be effectively applied, enabling me to explore myself fully and realize my full potential}{}{}{}{}
+
+\section{Education}
+\cventry{2014--Present}{Master of Technology in Machine Learning \& Computing\newline}{}{Indian Institute of Space Science \& Technology \hfill \url{http://www.iist.ac.in/}\newline}{\textit{CGPA -- 8.1 Till now}}{}  % Arguments not required can be left empty
+\cventry{2009--2013}{Bachelor of Technology in Computer Science \& Engineering\newline}{University of Kerala\newline}{Institute: College of Engineering, Trivandrum \hfill \url{http://cet.ac.in/}\newline}{\textit{CGPA -- 7.69}}{}  % Arguments not required can be left empty
+\cventry{2006--2008}{Higher Secondary Education\newline}{Kerala State Board of Higher Secondary Education,}{\textit{Score -- 90.00\%}}{}{}
+\cventry{2005--2006}{Secondary Education\newline}{Kerala State Board of Secondary Education,}{\textit{Score -- 88.00\%}}{}{}
+
+
+%Section
+\section{Technical Skills} 
+%\cvcomputer{Programming Languages}{C,C++,Matlab,\textsc{python}, \textsc{java}(Basics)}{}{}
+\cvitem{Programming Languages}{C, C++, Matlab, \textsc{python}, \textsc{java}(Basics)}
+\cvitem{Scripting}{JavaScript, Shell Scripting(Basics)} 
+\cvitem{Operating Systems}{GNU/Linux, Ms Windows XP/7}% {DB}{<Databases>}
+\cvitem{Software Packages}{\LaTeX, Eclipse, GCC, GDB}%{Programs} {<Programs>}
+
+
+\section{Academic Projects}
+
+\cventry{2015}{Multi-Label Classification Using Struct SVM\newline}{}{The scope of applying the struct-SVM algorithm on Multi-Label Classification Problems is explored. A suitable loss function and combined feature map representations were formulated in accordance with the problem. Testing and training were done on a semantic scene classification Problem.}{}{}
+
+\cventry{2014}{An Improved PSO Algorithm for Solving TSP with Edge Recombination Operator\newline}{}{A modified discrete-PSO algorithm is proposed for solving TSP, with the use of edge recombination operator for redefining the dependant moves in PSO. The new algorithm showed significantly better performance than the edge recombination crossover based GA, in terms of convergence rate and quality of solutions for benchmark problems from TSPLIB}{}{}
+
+\cventry{2013}{Machine Parsable RESTfull web API\newline}{}{We proposed a Microformats -like grammar that helps to annotate semantics into the already existing documentation of REST services doubling them as machine-readable descriptions. Moreover, these basic annotations help to link between RESTful services in the same domain and enables automatic discovery and composition}{}{}
+
+\cventry{2011}{BOINCr-Graphical Interface to manage BOINC projects\newline}{}{We implemented a graphical interface in Java to control BOINC server and to allow easy deployment of BOINC apps and work units}{}{}
+%Section
+
+\section{Achievements \& Activities}
+
+\cvitem{2012}{Event co-ordinator of Linux kernel API programming on Drishti-2012, annual tech fest of College of Engineering, Trivandrum.}
+\cvitem{2010}{Conducted a presentation on GREEN IT in CETEX 2010, a technical exhibition conducted by College of Engineering, Trivandrum.}
+\cvitem{2009}{Won CETAA(College of Engineering,Trivandrum Alumini Association)award for meritorious student in 2009}
+
+\section{Language Skills}
+
+\cvitem{English}{fluent}%{Mothertongue}{}
+\cvitem{Malayalam}{fluent}%{Mothertongue}{Conversationally fluent}
+\cvitem{Hindi}{Conversationally fluent}%{Basic}{Basic words and phrases only}
+
+%Section
+\section{Interests and Hobbies}
+%\cvline{}{\small <Description>}
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+\cvlistdoubleitem{Trekking}{Swimming}
+\cvlistdoubleitem{Blogging}{Cooking}
+
+\section{Personal Details}
+
+\cvitem{Date of Birth}{11 April 1991}
+\cvitem{Nationality}{Indian}
+\cvitem{Address}{Pilakkatt Meethal House,\newline Kuruvangad P O,\newline Koyilandy,\newline Calicut,\newline Kerala,\newline Pin: 673305}
+\cvitem{Mobile}{(+91) 9961558915}
+\cvitem{Email}{akhilpm135@gmail.com}
+%Section
+
+% Publications from a BibTeX file
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+\end{document}
